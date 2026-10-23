@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="worksheet24" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>24 Worksheet (LN 2.2, 2.3) </title>
+    <page>
+        <p> <term> Poll Question </term>  </p> 
+        <p> True or False: <m> 8x^2 +2y^2 - 8xy \gt 0 </m> for all values of <m> x </m> and <m> y </m> </p>
+        <p> <em> Hint: plot it in Desmos 3D! And: how does this exercise relate to symmetric matrices? </em> </p>
+    </page>
+
+    <page>
+        <p> <term> 24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices </term> </p>
+        <p> <term> Definition </term> </p>
+        <ul> 
+            <li>
+              <p>
+                A quadratic form is a function: <m> 𝑄 :ℝ𝑛 →ℝ </m> given by,
+              </p>
+            </li>
+
+        </ul> 
+
+        <me>
+          Q(\vec{x}) = \vec{x}^T A \vec{x} =
+          \begin{pmatrix}
+            x_1 \amp x_2 \amp \ldots \amp x_n
+          \end{pmatrix}
+          \begin{pmatrix}
+            a_{11} \amp a_{12} \amp \ldots \amp a_{1n} \\
+            a_{12} \amp a_{22} \amp \ldots \amp a_{2n} \\
+            \vdots \amp \vdots \amp \ddots \amp \vdots \\
+            a_{1n} \amp a_{2n} \amp \ldots \amp a_{nn}
+          \end{pmatrix}
+          \begin{pmatrix}
+            x_1 \\
+            x_2 \\
+            \vdots \\
+            x_n
+          \end{pmatrix}
+        </me>
+
+        <ul>
+          <li> 
+            Matrix A is <m> n </m> x <m> n </m> and symmetric, and <m> \vec{x} </m> is a variable vector in <m> ℝ^n. </m>
+          </li> 
+          
+        </ul>
+
+        <p> Example: express <m> Q = 3x_1 ^ 2 + x_2 ^ 2 + 8x_3 ^ 2 + 4x_1x_2 - 6x_2x_3 </m> in the form <m> Q = x^TAx</m>  </p>
+    </page>
+
+    <page>
+      <p> <term> 24.2 The Principle Axes Theorem </term></p>
+       <ul> 
+          <li>
+            If <m> A </m> is a symmetric matrix then there exists an orthogonal change of variable <m> \vec{x} = P\vec{y} </m>   
+            that transforms <m> \vec{x}^T </m> to <m> \vec{y}^T D\vec{y} </m> with no cross-product terms.
+          </li>
+        
+        </ul>
+
+       <p> <em> Proof in the lecture videos/textbook </em> </p> 
+       
+       <p> <term> 24.2.1 Example</term> </p>
+       <p> Consider <m> Q = x^2 + y^2 + 2kxy </m> where <m> k ∈ ℝ. </m> </p>
+        <p> 
+          <ol> 
+            <li> 
+              Make a change of variable that transforms the quadratic form into another quadratic that has no cross-product terms.
+            </li>
+
+            <li> 
+                For what values of <m> k </m> will <m> Q </m> satisfy <m> Q \geq 0 </m> for any <m> x </m> and <m> y </m> 
+            </li>
+
+          </ol>
+        </p>  
+
+
+        <p> <em> Tip: it may help to plot the surfaces in Desmos 3D to see what the surface looks like as you change value of <m> k </m> </em> </p> 
+    </page>
+
+  <introduction>
+    <p>Testing</p>
+  </introduction>
+  
+</section>
